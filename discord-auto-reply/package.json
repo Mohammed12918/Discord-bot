@@ -1,0 +1,17 @@
+{
+  "name": "discord-auto-reply",
+  "version": "1.0.0",
+  "description": "Discord bot auto-reply functionality",
+  "main": "dist/index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.mjs",
+    "dev": "node --watch dist/index.mjs"
+  },
+  "keywords": ["discord", "bot", "auto-reply"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  }
+}
